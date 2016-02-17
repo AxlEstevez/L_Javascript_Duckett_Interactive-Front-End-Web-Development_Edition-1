@@ -1,6 +1,6 @@
 /* CSS for adding content example */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic);
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:800italic");
 
 body {
     font-family: "Courier New", Courier, monospace;
@@ -10,7 +10,8 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 
 h1, h3, p {
     float: left;
@@ -18,8 +19,8 @@ h1, h3, p {
     width: 320px;
     background-color: #ffffff;
     color: #5a514c;
-    text-align: center;}
-
+    text-align: center;
+}
 
 h1 {
     margin: 50px 0 0 50px;
@@ -29,7 +30,8 @@ h1 {
     text-indent: -9999px;
     border-top: 1px solid #bcbdc0;
     border-left: 1px solid #bcbdc0;
-    border-right: 1px solid #bcbdc0;}
+    border-right: 1px solid #bcbdc0;
+}
 
 h3 {
     margin: 0 0 0 50px;
@@ -42,7 +44,8 @@ h3 {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     border-left: 1px solid #bcbdc0;
-    border-right: 1px solid #bcbdc0;}
+    border-right: 1px solid #bcbdc0;
+}
 
 p {
     margin: 0 0 0 50px;
@@ -51,14 +54,19 @@ p {
     text-align: center;
     border-right: 1px solid #bcbdc0;
     border-bottom: 1px solid #bcbdc0;
-    border-left: 1px solid #bcbdc0;}
+    border-left: 1px solid #bcbdc0;
+}
 
 p + script + h3 {
     padding-bottom: 20px;
-    border-bottom: 1px solid #bcbdc0;}
+    border-bottom: 1px solid #bcbdc0;
+}
 
 html{
     height:100%;
-    min-height:100%;}
+    min-height:100%;
+}
+
 body{
-    min-height:100%;}
+    min-height:100%;
+}
