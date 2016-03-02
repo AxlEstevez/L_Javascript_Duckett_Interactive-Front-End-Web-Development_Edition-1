@@ -3,12 +3,11 @@ var noteInput, noteName, textEntered, target;
 noteName = document.getElementById("noteName");
 noteInput = document.getElementById("noteInput");
 
-
 function writeLabel(e) {
+
     if (!e) {
         e = window.event;
     }
-
     target = e.target || e.srcElement;
     textEntered = target.value;
     noteName.textContent = textEntered;
@@ -16,6 +15,7 @@ function writeLabel(e) {
 
 
 function recorderControls(e) {
+
     if (!e) {
         e = window.event;
     }
@@ -29,7 +29,7 @@ function recorderControls(e) {
         e.returnValue = false;
     }
 
-    switch(target.getAttribute("data-state")) {
+    switch (target.getAttribute("data-state")) {
         case "record":
             record(target);
             break;
@@ -51,7 +51,6 @@ function stop(target) {
     target.textContent = "record";
 }
 
-
 if (document.addEventListener) {
     document.addEventListener("click", function(e) {
         recorderControls(e);
@@ -60,9 +59,9 @@ if (document.addEventListener) {
     noteInput.addEventListener("input", writeLabel, false);
 }
 else {
-    document.attatchEvent("onclick", function(e) {
+    document.attachEvent("onclick", function(e) {
         recorderControls(e);
     });
 
-    noteInput.attachEvent("onkeyup", writeLabel());
+    noteInput.attachEvent("onekeyup", writeLabel);
 }
