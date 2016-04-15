@@ -1,11 +1,9 @@
-/* CSS for Index Page */
-
 body {
     font-family: Gotham, Helvetica, Arial, sans-serif;
-    color: #58595b;
+    color: #58595B;
     margin: 0 auto;
     padding: 30px;
-    background: #f7f7f7;
+    background: #F7F7F7;
     text-align: center;
 }
 
@@ -14,16 +12,16 @@ h1 {
 }
 
 h3 {
-    color: #00ab95;
+    color: #00AB95;
 }
 
 a {
-    color: #00ab95;
+    color: #00AB95;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ed6c7b
+    color: #ED6C7B;
 }
 
 table {
@@ -34,12 +32,12 @@ table {
 
 td {
     border-radius: 3px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     padding: 10px;
     margin-bottom: 3px;
     text-align: left;
 }
 
 .blank {
-    background: #f7f7f7;
+    background: #F7F7F7;
 }
