@@ -1,0 +1,202 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald");
+
+body {
+    background-color: #000000;
+    font-family: "Oswald", "Futura", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#page {
+    background-color: #403C3B;
+    margin: 0 auto 0 auto;
+    /* Responsive page rules at bottom of style sheet */
+
+}
+h1 {
+    background: url("../images/kinglogo.png") no-repeat center center;
+    text-align: center;
+    text-indent: -1000%;
+    height: 75px;
+    line-height: 75px;
+    width: 117px;
+    margin: 0 auto 0 auto;
+    padding: 30px 10px 20px 10px;
+}
+h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    margin: 0 0 23px 0;
+}
+h2 span {
+}
+ul {
+}
+li {
+}
+li a {
+}
+li.complete a {
+}
+p {
+}
+.hot{
+}
+.cool {
+}
+.complete {
+}
+.complete a {
+}
+
+/* Form styles */
+
+form {
+    padding: 0 60px 65px 60px;
+}
+label {
+    color: #FFFFFF;
+    display: block;
+    margin: 10px 0 10px 0;
+    font-size: 24px;
+}
+input[type="text"], input[type="password"], textarea {
+    background-color: #999999;
+    color: #666666;
+    font-family: "Oswald", "Futura", sans-serif;
+    font-size: 24px;
+    width: 96%;
+    padding: 4px 6px;
+    border: 1px solid #999999;
+    border-radius: 8px;
+}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    outline: none;
+}
+input[type="submit"], a.add {
+    background-color: #CB6868;
+    color: #F3DAD1;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-top: 10px;
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover, a.add:hover {
+    background-color: #D75359;
+    color: #F3DAD1;
+    cursor: pointer;
+    box-shadow: none;
+    position: relative;
+    top: 1px;
+}
+textarea {
+}
+select, option {
+}
+#feedback, #termsHint {
+    color: #FFFFFF;
+    background: url("../images/warning.png") no-repeat 2px 14px;
+    padding: 10px 0 0  22px;
+}
+#feedback.warning {
+}
+#feedback.tip {
+}
+.selectbox {
+}
+.checkbox {
+}
+
+/* Click event example - note style */
+#note {
+}
+#note .header + div {
+}
+#note h2 {
+}
+#note a{
+}
+#note .header {
+}
+.shown {
+}
+.hidden {
+}
+
+/* Position Example */
+#stats {
+}
+#stats input[type="text"] {
+}
+#body #page {
+    margin-top: 130px;
+}
+.divider {
+}
+
+/* Character Counter */
+#charactersLeft {
+}
+#lastKey {
+}
+
+/* Membership Options */
+#packageHint, #termsHint {
+}
+#terms {
+}
+
+/* Mutation */
+#list, #list2 {
+}
+div.button {
+}
+
+
+/* Example */
+
+/* Small screen acts like the app would */
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #403C3B;
+    }
+    #page {
+        max-width: 480px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+
+/* Larger screens act like a demo for the app */
+@media only screen and (min-width: 960px) {
+    #page {
+        max-width: 480px;
+        margin: 20px auto 20px auto;
+    }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    h1 {
+        background-image: url("../images/2xkinglogo.png");
+        background-size: 72px 72px;
+    }
+}
