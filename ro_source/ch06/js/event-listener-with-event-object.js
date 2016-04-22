@@ -1,0 +1,5 @@
+//
+
+function checkLength(e, minLength) {
+    
+}
