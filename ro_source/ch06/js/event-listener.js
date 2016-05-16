@@ -10,3 +10,4 @@ function checkUsername() {
 
 var elUsername = document.getElementById("username");
 elUsername.addEventListener("blur", checkUsername, false);
+

@@ -1,5 +1,3 @@
-//
-
 var elList, addLink, newEl, newText, counter, listItems;
 
 elList = document.getElementById("list");

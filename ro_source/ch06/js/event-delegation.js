@@ -1,5 +1,3 @@
-//
-
 function getTarget(e) {
     if (!e) {
         e = window.event;
@@ -8,7 +6,7 @@ function getTarget(e) {
 }
 
 function itemDone(e) {
-    var elList, elListItem;
+    var elListItem, elList;
     var target = getTarget(e);
     
     if (target.nodeName.toLowerCase() == "a") {

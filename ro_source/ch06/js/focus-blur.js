@@ -16,9 +16,8 @@ function tipUsername() {
     elMsg.innerHTML = "Username must be at least 5 characters";
 }
 
-var el    = document.getElementById("username");
+var el = document.getElementById("username");
 var elMsg = document.getElementById("feedback");
-
 
 if (el.addEventListener) {
     el.addEventListener("focus", tipUsername, false);

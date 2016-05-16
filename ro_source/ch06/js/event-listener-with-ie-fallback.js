@@ -1,7 +1,5 @@
-//
-
 var elUsername = document.getElementById("username");
-var elMsg      = document.getElementById("feedback");
+var elMsg = document.getElementById("feedback");
 
 function checkUsername(minLength) {
     if (elUsername.value.length < minLength) {

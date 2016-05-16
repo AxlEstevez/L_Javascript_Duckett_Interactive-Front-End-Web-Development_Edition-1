@@ -1,13 +1,3 @@
-//
-
-// function setup() {
-//     var textInput;
-//     textInput = document.getElementById("username");
-//     textInput.focus();
-// }
-//
-// window.addEventListener("load", setup, false);
-
 function setup() {
     var textInput;
     textInput = document.getElementById("username");
@@ -15,8 +5,12 @@ function setup() {
 }
 
 if (window.addEventListener) {
-    window.addEventListener("load", setup, false);
+    window.addEventListener("load", function() {
+        setup();
+    }, false)
 }
 else {
-    window.attachEvent("onload", setup);
+    window.attachEvent("onload", function() {
+        setup();
+    });
 }

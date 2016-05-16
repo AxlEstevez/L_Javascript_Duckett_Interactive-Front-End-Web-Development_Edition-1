@@ -1,5 +1,5 @@
 var elUsername = document.getElementById("username");
-var elMsg      = document.getElementById("feedback");
+var elMsg = document.getElementById("feedback");
 
 function checkUsername(minLength) {
     if (elUsername.value.length < minLength) {
@@ -9,7 +9,6 @@ function checkUsername(minLength) {
         elMsg.innerHTML = "";
     }
 }
-
 elUsername.addEventListener("blur", function() {
     checkUsername(5);
 }, false);
