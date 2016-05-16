@@ -33,6 +33,18 @@ h2 {
     margin: 0 0 23px 0;
 }
 h2 span {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    top: -5px;
+    height: 22px;
+    width: 26px;
+    padding: 4px 0 0 0;
 }
 ul {
     border: none;
@@ -228,9 +240,7 @@ a.show {
     width: 130px;
     height: 60px;
     background-color: #403c3b;
-    background-image: url("../images/adverlion.png");
-    background-repeat: no-repeat;
-    background-position: 10px center;
+    background: url("../images/adverlion.png") no-repeat 10px center;
     color: #ffffff;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
