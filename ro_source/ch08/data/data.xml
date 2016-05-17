@@ -12,7 +12,7 @@
     </event>
     <event>
         <location>New York, Ny</location>
-        <data>May 30</data>
+        <date>May 30</date>
         <map>img/map-ny.png</map>
     </event>
 </events>
