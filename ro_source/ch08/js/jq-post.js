@@ -1,7 +1,7 @@
 //
 
 $("#register").on("submit", function(e) {
-    e.preventDefautl();
+    e.preventDefault();
     var details = $("#register").serialize();
     $.post("register.php", details, function(data) {
         $("#register").html(data);
