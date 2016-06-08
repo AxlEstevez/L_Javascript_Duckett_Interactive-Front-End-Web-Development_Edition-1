@@ -83,7 +83,8 @@ p {
 }
 .complete {
     color: #ffffff;
-    background: #999999 url("../images/icon-trash.png") no-repeat right, center;
+    background: url("../images/icon-trash.png") no-repeat right, center;
+    background-color: #999999;
     border-top: 1px solid #666666;
     border-bottom: 1px solid #b0b0b0;
     text-shadow: 2px 2px 1px #333333;
