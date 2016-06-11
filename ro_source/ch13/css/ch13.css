@@ -43,8 +43,8 @@ p {
     margin: 1em;
 }
 
-.welcome {}
-p.intro {}
+.welcome {text-align: center;}
+p.intro {margin: 2em;}
 
 /* FORM STYLES */
 legend {

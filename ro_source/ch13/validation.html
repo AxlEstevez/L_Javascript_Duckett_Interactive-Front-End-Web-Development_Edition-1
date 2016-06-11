@@ -3,7 +3,7 @@
 <head>
     <title>JavaScript &amp; jQuery - Chapter 13: Form Enhancement and Validation - Validation</title>
     <link rel="stylesheet" href="css/ch13.css" />
-    <link rel="stylesheet" href="css/ui-lightness/" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
 </head>
 <body>
 <div class="container">
@@ -27,6 +27,10 @@
                 <label for="password" class="required">Password:</label>
                 <input type="password" name="password" id="password" required />
             </div>
+            <div class="password">
+                <label for="conf-password" class="required">Confirm password:</label>
+                <input type="password" name="conf-password" id="conf-password" required />
+            </div>
         </div>
         <div class="one-third column">
             <h2>Profile</h2>
@@ -43,14 +47,17 @@
                 <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
                 <span id="bio-count" class="hide">140</span>
             </div>
-            <div class="register"><input type="submit" value="Registered"></div>
+            <div class="register"><input type="submit" value="Register"></div>
         </div>
     </form>
 </div>
 <script src="js/jquery-1.12.3.js"></script>
-<script src="js/jquery-ui"></script>
+<script src="js/jquery-ui.js"></script>
 <script src="js/utilities.js"></script>
 <script src="js/placeholder-polyfill.js"></script>
 <script src="js/password-signup.js"></script>
+<script src="js/birthday.js"></script>
+<script src="js/validation.js"></script>
+<script src="js/bio.js"></script>
 </body>
 </html>
